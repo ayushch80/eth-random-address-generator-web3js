@@ -9,6 +9,7 @@
   <body>
     <script src="js/web3.js"></script>
     <script>
+      var web3 = new Web3(web3Provider);
       const gen = new web3.eth.accounts.wallet.create(1);
       console.log(gen.address)
     </script>
